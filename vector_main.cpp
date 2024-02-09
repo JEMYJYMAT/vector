@@ -20,6 +20,7 @@ int main()
     vec2.add_element(30);
     vec2.add_element(40);
     cout << vec2;
+    vec2.get_extension();
     int* arr = vec2+30;
     for (int i = 0;i < vec2.get_size();i++)
     {
